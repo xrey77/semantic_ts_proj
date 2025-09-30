@@ -1,0 +1,6 @@
+/* Custom primary and secondary colors */
+@primaryColor : #4286f4;
+@secondaryColor : #f44289;
+
+/* Adjust the default font */
+@fontName: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;

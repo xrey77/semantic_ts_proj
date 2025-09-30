@@ -1,0 +1,5 @@
+/* Import global variables from your site/globals folder */
+@import '../../theme.config';
+
+/* Override the button-specific variable */
+@normalActiveColor: @primaryColor;

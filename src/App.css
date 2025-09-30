@@ -1,0 +1,14 @@
+/* Your custom theme.config will be automatically detected */
+/* @import 'semantic-ui-less/semantic.less'; */
+
+/* Import global variables from your site/globals folder */
+/* @import '../../theme.config'; */
+
+/* Override the button-specific variable */
+/* @normalActiveColor: @primaryColor; */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
