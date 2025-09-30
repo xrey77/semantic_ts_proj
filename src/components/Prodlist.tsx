@@ -92,7 +92,7 @@ export default function Prodlist() {
   
   return (
     <div className="container">
-            <h1 className='mt-3'>Products List</h1>
+            <h1 className='text-success embossed mt-3'>Products List</h1>
 
             <table className="table">
             <thead>

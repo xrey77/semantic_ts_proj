@@ -92,7 +92,7 @@ export default function Prodcatalog() {
 
     return(
     <div className="container mt-2 mb-9">
-            <h3 className="mt-3">Products Catalog</h3>
+            <h3 className="text-success embossed mt-3">Products Catalog</h3>
             <div className="card-group mb-3">
             {prods.map((item) => {
                     return (

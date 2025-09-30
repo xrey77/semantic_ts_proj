@@ -45,20 +45,25 @@ export default function Home() {
 </div>    
 <div className="card border-0 mt-3">
   <div className="card-header">
-    <h3 className="text-center">Play a part in shaping the future of self-service financial solutions</h3>
+    <strong>
+    <h3 className="text-info embossed">Play a part in shaping the future of self-service financial solutions</h3>
+    </strong>    
   </div>
 </div>
 <div className="card-body">
     <p className="card-text txt-justified mx-4">
-    will make a valued contribution towards our goal of continually innovating to expand self-service financial access 
+    We will make a valued contribution towards our goal of continually innovating to expand self-service financial access 
     <br/><br/>
     Our people are the heart of the solutions we deliver. Collaborating with diverse teams across continents, you’ll have the opportunity to innovate, to impact change and to create exceptional experiences for our customers and, in turn, their customers. Our business spans more than 60 countries—where will you find your fit?    
     </p>
   </div>
   <div className="footer-contact footer-home"> 
-<Footer/>
 </div>
+</div>
+<br/><br/><br/><br/><br/><br/>
 
+<div className="footer-home">
+  <Footer/>
 </div>
 </>
 

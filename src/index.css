@@ -7,12 +7,18 @@ body {
   margin-right: 10px !important;
 }
 
+#offcanvasWithBothOptions {
+  width: 60% !important;
+}
+
 .carousel-inner .carousel-item img {
-  max-width: 100% !important;
+  position: relative;
+  left: 50% !important;
+  right: 50% !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  width: 100vw !important;
   height: 550px;
-  border-radius: 20px;
-  object-fit: cover;
-  border-radius: 20px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -34,6 +40,18 @@ body {
   opacity: 0.9;
   transition: opacity .6s ease;
 }
+
+.carousel-box {
+  position: relative;
+  margin-top: 20px;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+  height: 110vh;
+}
+
 
 .userpicture {
   width: 190px;
@@ -67,29 +85,23 @@ body {
   width: 150px;
   height: 35px;
 }
-
-.carousel-inner .carousel-item img {
-  height: auto;
-  width: auto;
-  max-width: 100% !important;
-  max-height: 620px !important;
-}
-
-.carousel-box {
+.contact-bg {
   position: fixed;
-  margin-left: -40px !important;
-  width: 1080px !important;
-  max-height: 600px !important; 
+  left: -1vw;
+  margin-right: -2vw;
+  margin-left: -1vw;
+  width: 100% !important;
+  height: 100%;
+  background-image: radial-gradient(circle, lightgreen, rgb(231, 236, 225), rgb(236, 222, 196)  );  
 }
+
 .footer-12 {
   font-size: 12px;
 }
 .card-img {
-  width: auto;
-  height: auto;
   margin: 0 auto;
   max-width: 90%! important;
-  height: 300px !important;
+  height: 60vh !important;
 }
 .txt-justified {
   text-align: justify !important;
@@ -107,16 +119,16 @@ body {
 .footer-home {
   visibility: visible;
   /* margin-top: 30px !important; */
-  margin-bottom: -10px !important;
+  margin-bottom: -50px !important;
 }
 
-/* @media (min-width: 1200px) { 
-  .footer-home {
-    visibility: visible;
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-  }
-} */
+.embossed {
+  background-color: #666666;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #f0f0f0;
+  text-shadow: 1px 4px 4px #555555;
+}
 
 @media (max-width: 991.98px) { 
   .carousel-inner .carousel-item img {
@@ -131,12 +143,15 @@ body {
     margin-left: 5%;
   }
   .carousel-box {
-    position: fixed;
+    position: relative;
     visibility: visible !important;
-    margin-left: -40px !important;
-    width: 100% !important;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw !important;
+    margin-right: -50vw;
+    width: 100vw !important;
     max-height: 700px !important;
-    top: 90px;
+    top: 10px;
     bottom: 30px !important; 
   }
   .sm {

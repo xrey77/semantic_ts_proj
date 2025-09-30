@@ -57,7 +57,7 @@ export default function Prodsearch() {
    
 return (
   <div className="container mb-9">
-      <h2 className='mt-2'>Products Search</h2>
+      <h2 className='text-success embossed mt-2'>Products Search</h2>
 
       <form className="row g-3" onSubmit={getProdsearch} autoComplete='off'>
           <div className="col-auto">
